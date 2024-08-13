@@ -1,0 +1,139 @@
+@media (min-width: 1440px){
+    .reach{
+        display:flex;
+        justify-content: space-around;
+    }
+
+    footer{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .parts{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+@media (max-width: 440px){
+    .reach{
+        text-align: center;
+    }
+
+    parts{
+        text-align: center;
+    }
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    padding: 10px;
+    background-color: white;
+}
+
+#navbtn{
+    color:hsl(322, 100%, 66%);
+    padding:10px;
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 25px;
+}
+
+.first{
+    padding: 15%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.first h1{
+    font-size: xx-large;
+}
+
+.first p{
+    font-size: medium;
+}
+
+.pinkbtn{
+    background-color: hsl(322, 100%, 66%);
+    padding: 15px 50px 15px 50px;
+    color: white;
+    border-radius: 25px;
+}
+
+#scrn{
+    width: 90%;
+    margin: 5%;
+}
+
+.reach img{
+    width: 3rem;
+}
+
+.reach h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.reach p{
+    font-size: small;
+    text-align: center;
+}
+
+.shade{
+    width:100%;
+    background-color: hsl(207, 100%, 98%);
+}
+
+.parts img{
+    width: 50%;
+}
+
+.parts div{
+    width: 50%;
+    text-align:left;
+    padding: 10%;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 15px;
+}
+
+#logo{
+    background: white;
+    mask: url('images/logo.svg') no-repeat center;
+    -webkit-mask: url('images/logo.svg') no-repeat center;
+    height: 100px;
+}
+
+footer div{
+    margin: 10px;
+    line-height: 1.5;
+}
+
+footer div span{
+    line-height: 2.5;
+}
+
+footer input{
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.subbtn{
+    background-color: hsl(322, 100%, 66%);
+    padding: 10px 15px 10px 15px;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#curve{
+    width:100%;
+}
